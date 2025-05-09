@@ -1,5 +1,5 @@
 # Linear-Regression-Heston
 
-In this project, we use a linear regression algorithm implemented on Python, and monte carlo simulations to optimise the parameters of the Heston model. We then use these to check how accurate the algorithm predicts stock prices using this as the underlying model. The Heston model is solved by following the Quadratic-Exponential (QE) algorithm as illustrated by Leif Andersen in his 2008 paper: Efficient Simulation of the Heston Stochastic Volatility Model. Initial market conditions are taken to be the ones 30 days in the past, and today's market prices are the ones on which parameters are optimised.
+In this project, we use a linear regression algorithm implemented on Python, and monte carlo simulations to optimise the parameters of the Heston model. We then use these to check how accurately the algorithm predicts stock prices using this as the underlying model. The Heston model is solved by following the Quadratic-Exponential (QE) algorithm as illustrated by Leif Andersen in his 2008 paper: Efficient Simulation of the Heston Stochastic Volatility Model. Initial market conditions are taken to be the ones 30 days in the past, and today's market prices are the ones on which parameters are optimised.
 
 The repository also includes a plot of the predicted prices and the real prices from a past run, labelled lin_reg.png.      
