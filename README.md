@@ -85,8 +85,8 @@ pip install numpy pandas scipy scikit-learn yfinance matplotlib
 
 ## Author
 
-[Your Name]  
-Quantitative Finance Enthusiast | Python + Modeling | [LinkedIn or GitHub link]
+Ioannis Hadjifrangiskou  
+Quantitative Finance Enthusiast | Python + Modeling | [LinkedIn](https://www.linkedin.com/in/ioannis-hadjifrangiskou-b32302340/)
 
 ---
 
