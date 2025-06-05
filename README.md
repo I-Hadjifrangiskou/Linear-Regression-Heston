@@ -11,10 +11,10 @@ This is a simplified, interpretable alternative to neural network-based calibrat
 
 ## Key Features
 
-- 📈 **Real Market Data Integration**: Collects SPY options and implied volatility from Yahoo Finance.
-- 📉 **Linear Model for Calibration**: Fits a `LinearRegression` model to predict Heston parameters (`theta`, `kappa`, `sigma`, `rho`) from option data.
-- 🔁 **Heston Simulation**: Uses Monte Carlo simulation with the Quadratic-Exponential (QE) method by Leif Andersen (2008).
-- 🧪 **Performance Visualization**: Compares predicted vs real market prices for options across strike prices.
+-  **Real Market Data Integration**: Collects SPY options and implied volatility from Yahoo Finance.
+-  **Linear Model for Calibration**: Fits a `LinearRegression` model to predict Heston parameters (`theta`, `kappa`, `sigma`, `rho`) from option data.
+-  **Heston Simulation**: Uses Monte Carlo simulation with the Quadratic-Exponential (QE) method by Leif Andersen (2008).
+-  **Performance Visualization**: Compares predicted vs real market prices for options across strike prices.
 
 ---
 
@@ -64,7 +64,7 @@ pip install numpy pandas scipy scikit-learn yfinance matplotlib
 
 ## Example Output
 
-📊 **Predicted vs Market Prices**  
+**Predicted vs Market Prices**  
 ![Predicted vs Market](lin_reg.png)
 
 ---
